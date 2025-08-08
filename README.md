@@ -25,13 +25,15 @@ Que permite mover el cursor del terminal hacia abajo una determinada cantidad de
 ## ⚙️ ¿Como Funciona?
 
 #### 🎨 Comandos de Entindado
-La renderizacion de imagenes dentro del terminal se realiza con una combinacion de comandos, que permiten manejar el color con el que se imprime el texto al igual que su fondo.
+La renderizacion de imagenes dentro del terminal se realiza con una combinacion de comandos, que permiten manejar el color con el que se imprime el texto al igual que su fondo.   
+
 ej.  `\033[38;2;100;30;200m`
 
 [imagen de ejemplo]
 
 #### 📦 Bloques Unicode
-Esto combinado con el uso de caracteres [__Unicode__](https://symbl.cc/es/unicode-table/), tales como:
+Esto combinado con el uso de caracteres [__Unicode__](https://symbl.cc/es/unicode-table/)
+Proporciona al usuario una variedad de combinaciones para la creacion de imagenes dentro del terminal, tales como:
 
 - `▀` Mitad de Bloque Superior ([U+2580](https://symbl.cc/es/2580/)"`▀`")
 - `▄` Mitad de Bloque Inferior ([U+2580](https://symbl.cc/es/2584/)"`▄`")
@@ -40,7 +42,6 @@ Esto combinado con el uso de caracteres [__Unicode__](https://symbl.cc/es/unicod
 > [!NOTE]
 > Estos mismos son los bloques se utilizan dentro del proyecto para la creacion de imagenes
 
-Proporciona al usuario una variedad de combinaciones para la creacion de imagenes dentro del terminal
 
 ### 🖼️ Otros Ejemplos:
 
