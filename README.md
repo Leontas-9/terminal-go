@@ -32,11 +32,11 @@ ej.  `\033[38;2;100;30;200m`
 [imagen de ejemplo]
 
 #### 📦 Bloques Unicode
-Esto combinado con el uso de caracteres [__Unicode__](https://symbl.cc/es/unicode-table/)
+Esto combinado con el uso de caracteres [__Unicode__](https://symbl.cc/es/unicode-table/).   
 Proporciona al usuario una variedad de combinaciones para la creacion de imagenes dentro del terminal, tales como:
 
 - `▀` Mitad de Bloque Superior ([U+2580](https://symbl.cc/es/2580/)"`▀`")
-- `▄` Mitad de Bloque Inferior ([U+2580](https://symbl.cc/es/2584/)"`▄`")
+- `▄` Mitad de Bloque Inferior ([U+2584](https://symbl.cc/es/2584/)"`▄`")
 - `█` Mitad de Bloque Superior ([U+2588](https://symbl.cc/es/2588/)"`█`")
 
 > [!NOTE]
