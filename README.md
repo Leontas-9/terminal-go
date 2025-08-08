@@ -69,7 +69,6 @@ Formatos permitidos dentro del programa:
 > [!IMPORTANT]
 > El formato `GIF` solo permite la lectura del primer frame
 
-  (Permite unicamnete la lectura del primer frame)
 ## 🎯 Objetivo
 
 - Permitir al usuario un mayor manejo y facilidad de las herraminetas que ofrecen los [__codigos de escape ANSI__](https://gist.github.com/ConnerWill/d4b6c776b509add763e17f9f113fd25b)
