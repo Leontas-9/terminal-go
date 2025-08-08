@@ -5,20 +5,21 @@ Proporciona un conjunto de herramientas para el manejo avanzado de códigos de e
 
 | Imagen original            | Imagen Renderizada         |
 |----------------------------|----------------------------|
-| <img width="315" height="216" alt="paisaje" src="https://github.com/user-attachments/assets/d5c13bf8-26db-46a9-9992-b51831bdb393" />|<img width="1360" height="654" alt="paisaje renderizado" src="https://github.com/user-attachments/assets/7ab8c030-fc71-4f62-8a00-6cfcad4b8fa8" />|
+| <img width="837" height="573" alt="paisaje" src="https://github.com/user-attachments/assets/d5c13bf8-26db-46a9-9992-b51831bdb393" />|<img width="837" height="402" alt="paisaje renderizado" src="https://github.com/user-attachments/assets/7ab8c030-fc71-4f62-8a00-6cfcad4b8fa8" />|
 
 ----
 
 ## Instalacion 
 
-Instale y actualice este paquete go con `go get -u github.com/Leontas-9/terminal-go.git`
+Instale y actualice este paquete go con:    
+`go get -u github.com/Leontas-9/terminal-go.git`
 
 ----
 
 ## Aplicacion
 
-El proyecto incluye diversas funciones que permiten el manejo de codigos ANSI Escape los cuales facilitan la interaccion con el __CLI__ del desarrollador,    
-tales como:
+El proyecto incluye diversas funciones que permiten el manejo de codigos ANSI Escape los cuales facilitan la interaccion con el __CLI__ del desarrollador.    
+Tales como:
 
 ``` go
 func MoveDown_Start(lines int) string {
@@ -29,7 +30,8 @@ func MoveDown_Start(lines int) string {
 Que permite mover el cursor del terminal hacia abajo una determinada cantidad de lineas y al inicio de la fila.
 
 
-__Ejemplo simple para renderizar una imagen al terminal:__ `LoadImage()` `PutReusableRGBA`
+__Ejemplo simple para renderizar una imagen al terminal:__ 
+`LoadImage()` `PutReusableRGBA()`
 
 ```go
 package main
