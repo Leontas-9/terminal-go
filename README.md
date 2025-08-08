@@ -5,6 +5,8 @@ Proporciona un conjunto de herramientas para el manejo avanzado de códigos de e
 
 [imagen]
 
+----
+
 El proyecto incluye diversas funciones que permiten el manejo de codigos ANSI Escape los cuales facilitan la interaccion con el __CLI__ del desarrollador, tales como:
 
 ``` go
@@ -43,11 +45,11 @@ Proporciona al usuario una variedad de combinaciones para la creacion de imagene
 ### 🖼️ Otros Ejemplos:
 
 [imagen 1]
-
+----
 [imagen 2]
-
+----
 [imagen 3]
-
+----
 
 > [!CAUTION]
 > Precaucion a la hora de reajustar los bordes del CLI luego de la impresion de la imagen, ya que este podria causar distoriones en la misma, al no actualizar el estado de `GetTerminalSize()`
