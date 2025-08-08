@@ -8,6 +8,9 @@ import (
 	"golang.org/x/image/draw"
 )
 
+
+// Ejemplo de imagen Personalizada en tamaño, interpolador, punto inicial
+// y demas ajustes de UI
 func main() {
 	filepath := "image_test/man.jpg"
 
@@ -33,4 +36,5 @@ func main() {
 
 	err = src.Displacement()
 	if err != nil { log.Fatal(err) }
+
 }
