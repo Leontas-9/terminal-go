@@ -16,7 +16,7 @@ Instale y actualice este paquete go con:
 
 ----
 
-## Aplicacion
+## 📋 Aplicacion
 
 El proyecto incluye diversas funciones que permiten el manejo de codigos ANSI Escape los cuales facilitan la interaccion con el __CLI__ del desarrollador.    
 Tales como:
@@ -55,6 +55,21 @@ func main() {
 }
 ```
 
+## 🗂️ Formatos
+
+Formatos permitidos dentro del programa:
+
+- __PNG__
+- __JPEG__
+- __BMP__
+- __TIFF__
+- __WEBP__
+- __GIF__
+  
+> [!IMPORTANT]
+> El formato `GIF` solo permite la lectura del primer frame
+
+  (Permite unicamnete la lectura del primer frame)
 ## 🎯 Objetivo
 
 - Permitir al usuario un mayor manejo y facilidad de las herraminetas que ofrecen los [__codigos de escape ANSI__](https://gist.github.com/ConnerWill/d4b6c776b509add763e17f9f113fd25b)
