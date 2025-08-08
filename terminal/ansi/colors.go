@@ -85,6 +85,8 @@ func GetANSI_Color(buf *[]byte, r, g, b uint8, isText bool) {
 // y para optimizar el uso de memoria conmenores bytes
 func GetANSI_DoubleColor(buf *[]byte, rF,gF,bF,rB,gB,bB byte) {
 	// Acceso directo a dígitos precomputados
+	*buf = append(*buf, ansiPrefixFg...)
+
 	d := digitLookup[rF]
 	AppendBytes(buf, ';', d)
 	
@@ -248,4 +250,5 @@ func AverageAlpha(color1, color2 color.RGBA) (color3 color.RGBA) {
 	return color.RGBA{
 		A: uint8(A1>>8 + A2>>8) / 2,
 	}
+
 }
