@@ -1,7 +1,7 @@
 package main
 
 import (
-	"terminal/render"
+	"github/Leontas-9/terminal/render"
 	"fmt"
 	"image"
 	"log"
@@ -38,3 +38,4 @@ func main() {
 	if err != nil { log.Fatal(err) }
 
 }
+
