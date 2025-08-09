@@ -50,14 +50,14 @@ go get github.com/eiannone/keyboard
 
 ## 🖼️ Ejemplos de Imagenes
 
-<img width="480" height="480" alt="hollow-knight" src="https://github.com/user-attachments/assets/5c0d2f09-b974-4dc7-bdda-6cd3d8d042a2" />
+<img width="408" height="408" alt="hollow-knight" src="https://github.com/user-attachments/assets/5c0d2f09-b974-4dc7-bdda-6cd3d8d042a2" />
 
 
-<img width="489" height="468" alt="hollow-knight-render" src="https://github.com/user-attachments/assets/3098d6a0-c5a1-4509-9b7a-c1aa7028c003" />
+<img width="421" height="402" alt="hollow-knight-render" src="https://github.com/user-attachments/assets/3098d6a0-c5a1-4509-9b7a-c1aa7028c003" />
 
 ---
     
-<img width="711" height="487" alt="paisaje" src="https://github.com/user-attachments/assets/d5c13bf8-26db-46a9-9992-b51831bdb393" />
+<img width="597" height="409" alt="paisaje" src="https://github.com/user-attachments/assets/d5c13bf8-26db-46a9-9992-b51831bdb393" />
 
 
 <img width="837" height="402" alt="paisaje-render" src="https://github.com/user-attachments/assets/7ab8c030-fc71-4f62-8a00-6cfcad4b8fa8" />
