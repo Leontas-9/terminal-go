@@ -407,11 +407,11 @@ imgRGBA, err := terminal.LoadImage("imagen.jpg")
 pixel := color.RGBA{R: 255, G: 128, B: 64, A: 255}
 ```
 
-### 2. **Mapeo de Bloques Unicode**
+### 2. **Mapeo de Bloques [Unicode](https://symbl.cc/es/unicode-table/)**
 ```go
 // Cada carácter del terminal representa 2 píxeles verticales:
 // Píxel superior → Color de texto del bloque ▀
-// Píxel inferior → Color de fondo del bloque ▀
+// Píxel inferior → Color de fondo del bloque ▄
 
 upperPixel := image.getPixel(y)       // Fila actual  
 lowerPixel := image.getPixel(y+1)     // Fila siguiente
@@ -419,7 +419,7 @@ lowerPixel := image.getPixel(y+1)     // Fila siguiente
 // Resultado: Un bloque ▀ con colores específicos para texto y fondo
 ```
 
-### 3. **Optimización de Códigos ANSI**
+### 3. **Optimización de Códigos [ANSI](https://gist.github.com/ConnerWill/d4b6c776b509add763e17f9f113fd25b)**
 ```go
 // Sistema de cache para evitar regenerar códigos idénticos
 var digitLookup = [256][]byte{} // Tabla precomputada 0-255
