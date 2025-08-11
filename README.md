@@ -1,7 +1,7 @@
 # 🖼️ Terminal-Go
 
 [![Go Version](https://img.shields.io/badge/Go-1.21+-blue.svg)](https://golang.org/)
-[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 
 > **Renderizador de imágenes avanzado para terminal CLI** que transforma cualquier imagen en arte ASCII/Unicode utilizando códigos de escape ANSI y bloques Unicode optimizados.
