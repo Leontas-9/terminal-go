@@ -6,11 +6,11 @@ import (
 	"os"
 
 	"github.com/Leontas-9/terminal-go/ansi"
-	terminal "github.com/Leontas-9/terminal-go/render"
+	"github.com/Leontas-9/terminal-go/render"
 )
 
 func main() {
-	filepath := "C:/Users/lenna/OneDrive/Programacion/Leontas-9/terminal-go/image/burger.gif"
+	filepath := "Leontas-9/terminal-go/image/burger.gif"
 
 	img, err := terminal.LoadImage(filepath)
 	if err != nil { fmt.Print(err) }
