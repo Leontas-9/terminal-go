@@ -34,7 +34,7 @@ func (src *RenderImage) Displacement() error {
 			return nil
 		}
 
-		actualScreen, err := GetBlaBla()
+		actualScreen, err := GetTerminalSize()
 		if err != nil { return err }
 		
 		if !lastPosition.Eq(src.InitialPoint) {

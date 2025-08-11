@@ -452,7 +452,7 @@ var terminalSize image.Point
 // cuenta los pixeles que se pueden usar dentro de un bloque unicode 
 // bloque superior ('▀') y bloque inferior ('▄')
 func GetTerminalPixelSize() (terminalSize image.Point, err error) {
-	size, err := GetBlaBla()
+	size, err := GetTerminalSize()
 
 	terminalSize = image.Pt(size.X, size.Y*2)
 	return terminalSize, err
@@ -461,7 +461,7 @@ func GetTerminalPixelSize() (terminalSize image.Point, err error) {
 
 // Retorna el punto maximo del tamaño actual del terminal
 // La cantidad de caracteres de ancho y largo que se pueden utilizar
-func GetBlaBla() (size image.Point, err error) {
+func GetTerminalSize() (size image.Point, err error) {
 	var info windows.ConsoleScreenBufferInfo
 	handle := windows.Handle(windows.Stdout)
 	err = windows.GetConsoleScreenBufferInfo(handle, &info)
