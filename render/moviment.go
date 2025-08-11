@@ -4,6 +4,7 @@ import (
 	"image"
 	"os"
 	"time"
+
 	"github.com/eiannone/keyboard"
 )
 
@@ -33,7 +34,7 @@ func (src *RenderImage) Displacement() error {
 			return nil
 		}
 
-		actualScreen, err := GetTerminalSize()
+		actualScreen, err := GetBlaBla()
 		if err != nil { return err }
 		
 		if !lastPosition.Eq(src.InitialPoint) {
