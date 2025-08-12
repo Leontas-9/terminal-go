@@ -535,4 +535,3 @@ Este proyecto está bajo la Licencia GNU General Public License v3.0. Ver el arc
 ⭐ **¡Si este proyecto te resulta útil, considera darle una estrella!** ⭐
 
 > *"Transformando píxeles en arte ASCII, una terminal a la vez."* 🎨✨
->>>>>>> e121ace (Este es mi primer commit)
